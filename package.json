@@ -1,0 +1,24 @@
+{
+  "name": "arena-proxy",
+  "version": "1.0.0",
+  "description": "Simple proxy to handle pre auth requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tkaplan/area-proxy.git"
+  },
+  "author": "Taylor Kaplan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkaplan/area-proxy/issues"
+  },
+  "homepage": "https://github.com/tkaplan/area-proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0"
+  }
+}
